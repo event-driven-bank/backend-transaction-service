@@ -1,0 +1,25 @@
+# Go
+/account-service
+/transaction-service
+/transaction-processor
+/transaction-query
+/customer-service
+/auth-service
+*.test
+*.out
+/vendor/
+
+# Logs
+*.log
+logs/
+
+# Neovim
+*.swp
+*.swo
+*~
+.un~
+
+# Environment
+.env
+.env.*
+!.env.example
